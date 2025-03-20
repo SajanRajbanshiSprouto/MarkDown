@@ -166,8 +166,9 @@ If you want to send standard template message here is how you need to construct 
       {
         "type": "button" // if the button is of sub type "quick_reply", just specify the button in correct sequence.
       }
+]
       // More buttons can come here, the index can increase as we add more buttons, maximum 3 buttons allowed.
-  }
+  },
   "show_in_inbox": true // can be false if not required to show in Growby platform's inbox
 }
 
