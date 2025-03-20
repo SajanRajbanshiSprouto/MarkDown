@@ -109,7 +109,20 @@ https://api.growby.net/v3/messages
 {
   "statuscode": 200,  // HTTP status code 200 for success
   "response": "Message sent",  // Descriptive message indicating success
-  "data": <MessageObject>
+  "data": {
+        "messaging_product": <product-name>,
+        "contacts": [
+            {
+                "input": "91XXXXXXXXXX",
+                "wa_id": "91XXXXXXXXXX"
+            }
+        ],
+        "messages": [
+            {
+                "id": <whatsapp-message-id>
+            }
+        ]
+    }
 }
 
 ```
