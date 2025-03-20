@@ -7,6 +7,12 @@ This **API** allows you to send a message to a specified recipient using either 
 ```
 https://api.growby.net/v3/messages
 ```
+### **Header content**
+```
+{
+  "ApiKey":<growby-api-key> // you can access your ApiKey from growby API setup page.
+}
+```
 ### **Request JSON format**
 ```
 {
