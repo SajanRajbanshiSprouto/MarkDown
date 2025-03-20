@@ -301,7 +301,7 @@ If you want to send carousel template message, pay attention on how you create t
 ```
 
 ### **Supported media**
-- Image (jpeg,png), max size 5 MB
-- Video (mp4,3gp), max size 16 MB
+- Image (jpeg, png), max size 5 MB
+- Video (mp4, 3gp), max size 16 MB
 - Document (pdf), max size 100 MB
 
