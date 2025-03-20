@@ -16,7 +16,6 @@ https://api.growby.net/v3/messages
 ### **Request JSON format**
 ```
 {
-  {
   "from": "string",  // string, phone number with country code e.g. 91XXXXXXXXXX or +91XXXXXXXXXX
   "to": "string",    // string, phone number with country code e.g. 91XXXXXXXXXX or +91XXXXXXXXXX
   
